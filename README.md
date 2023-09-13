@@ -1,4 +1,4 @@
-# Substrate Node Template
+# Substrate Node Template (change from visual studio)
 
 A fresh [Substrate](https://substrate.io/) node, ready for hacking :rocket:
 
