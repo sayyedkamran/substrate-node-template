@@ -35,7 +35,7 @@ pub mod pallet {
     #[pallet::config]
     pub trait Config: frame_system::Config {
         type Currency: Currency<Self::AccountId>;
-        type CollectionRandomness: Randomness<Self::Hash, Self::BlockNumberFor<T>>;
+        type CollectionRandomness: Randomness<Self::Hash, BlockNumberFor<Self>>;
 
     #[pallet::constant]
     type MaximumOwned: Get<u32>;
