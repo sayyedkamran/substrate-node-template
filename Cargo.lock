@@ -4930,6 +4930,7 @@ dependencies = [
 name = "node-template-runtime"
 version = "4.0.0-dev"
 dependencies = [
+ "collectibles",
  "frame-benchmarking",
  "frame-executive",
  "frame-support 4.0.0-dev (git+https://github.com/paritytech/substrate.git?branch=polkadot-v1.0.0)",
